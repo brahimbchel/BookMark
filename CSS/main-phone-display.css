@@ -1,0 +1,265 @@
+/* phone display */
+
+@media (max-width: 375px) {
+
+  header{
+    margin: 40px;
+    align-items: center;
+  }
+
+  .logo {
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+
+  .header-nav-none{
+    display: none;
+  }
+
+  .humbrgr-icon{
+    width: 100%;
+  }
+
+  .landing-section {
+    flex-direction: column-reverse;
+    text-align: center;
+    margin-top: 65px;
+    margin-bottom: 65px;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+
+  .landing-section .image-side {
+    width: 90%;
+    margin: 0px;
+    margin-left: 0;
+    text-align: center;
+  }
+  
+  .landing-section .image-side img {
+    width: 120%;
+  }
+
+  .landing-section .text-side {
+    margin-top: 0px;
+    width: 100%;
+  }
+
+  .landing-section .text-side h1 {
+    font-size: 22px;
+    font-weight: 500;
+  }
+
+  .landing-section .text-side p.manager{
+    font-size: 15px;
+  }
+
+  /* .landing-section .text-side .buttons{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  } */
+  
+  .buttons .get-chrome {
+    padding: 12px 9px;
+    font-size: 12px;
+    font-weight: bold;
+    width: 150px;
+  }
+  
+  .buttons .get-firefox {
+    padding: 12px 10px;
+    font-size: 13px;
+    font-weight: bold;
+    width: 150px;
+  }
+
+  .features-section{
+    margin-top: 0;
+    margin-bottom: 150px;
+    margin-right: 40px;
+    margin-left: 40px;
+    padding: 0;
+  }
+
+  .feat-h {
+    font-size: 22px;
+  }
+
+  .feat-p {
+    font-size: 14px;
+    width: 100%;
+  }
+
+  .features {
+    flex-direction: column;
+  }
+
+  .feat {
+    padding: 14px 22px;
+    width: 85%;
+  }
+
+  .feat-on {
+    border-bottom: 3px solid var(--soft-red);
+    color: var(--very-dark-blue);
+  }
+
+  .the-feature {
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 20px;
+  }
+
+  .feat-image {
+    width: 100%;
+  }
+  
+  .feat-image img {
+    width: 100%;
+  }
+
+  .feat-text {
+    width: 100%;
+    text-align: center;
+  }
+  
+  .feat-text-h {
+    font-size: 22px;
+    font-weight: 500;
+    padding-top: 30px;
+  }
+  
+  .feat-text-p {
+    font-size: 14px;
+  }
+  
+  .feat-text-button {
+    padding: 12px 14px;
+    width: 100px;
+  }
+
+  .extention-section {
+    padding-bottom: 100px;
+    margin-right: 40px;
+    margin-left: 40px;
+  }
+  
+  .extsn-h{
+    font-size: 22px;
+    font-weight: 500;
+  }
+  
+  .extsn-p {
+    font-size: 14px;
+    width: 100%;
+    margin: 20px auto;
+  }
+  
+  .browsers {
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  .qst-section {
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-bottom: 120px;
+  }
+
+  .qst-h {
+    font-size: 22px;
+  }
+  
+  .qst-p {
+    width: 100%;
+    font-size: 14px;
+  }
+  
+  .questions{
+    display: flex;
+    flex-direction: column;
+    margin: 50px 0px;
+  }
+
+  .sign-in {
+    flex-direction: column;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+
+  .join-us h4 {
+    font: 18px;
+    font-weight: 400;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+  
+  .join-h {
+    color: white;
+    font-size: 24px;
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .join-us input {
+    width: 100%;
+  }
+  
+  .join-btn {
+    padding: 14px 20px;
+    width: 100%;
+  }
+
+  footer {
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 40px 50px;
+    text-align: center;
+  }
+  
+  .foot-nav {
+    margin-left: 40px;
+    margin-right: 40px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .foot-nav .logo img {
+    margin-left: 40px;
+    margin-right: 40px;
+    color: white;
+  }
+
+  .foot-nav nav  {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+  }
+  
+  .foot-nav nav a {
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+  }
+  
+  .social-media {
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+}
+
+/* humberger icon  */
+
+@media (min-width: 376px) {
+  .humbrgr-icon{
+    display: none;
+  }
+}
