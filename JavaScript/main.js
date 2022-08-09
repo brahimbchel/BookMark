@@ -36,7 +36,7 @@ ftSimpl.addEventListener("click", () => {
   ftSimpl.classList.add("feat-on")
 
   // changin image and the header and the paragraph
-  ftImg.src = "/images/illustration-features-tab-1.svg"
+  ftImg.src = "images/illustration-features-tab-1.svg"
   ftTxtH.innerText = "Bookmark in one click"
   ftTxtP.innerText = "Organize your bookmarks however you like. Our simple drag-and-drop interface gives you complete control over how you manage your favourite sites."
 })
@@ -50,7 +50,7 @@ ftSpeed.addEventListener("click", () => {
   ftSpeed.classList.add("feat-on")
 
   // changin image and the header and the paragraph
-  ftImg.src = "/images/illustration-features-tab-2.svg"
+  ftImg.src = "images/illustration-features-tab-2.svg"
   ftTxtH.innerText = "Intelligent search"
   ftTxtP.innerText = "Our powerful search feature will help you find saved sites in no time at all. No need to trawl through all of your bookmarks."
 })
@@ -62,7 +62,7 @@ ftEasy.addEventListener("click", () => {
   ftEasy.classList.remove("feat-on")
 
   ftEasy.classList.add("feat-on")
-  ftImg.src = "/images/illustration-features-tab-3.svg"
+  ftImg.src = "images/illustration-features-tab-3.svg"
   ftTxtH.innerText = "Share your bookmarks"
   ftTxtP.innerText = "Easily share your bookmarks and collections with others. Create a shareable link that you can send at the click of a button."
 })
